@@ -1,0 +1,17 @@
+.nav__Img {
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px #96d0ff solid;
+}
+
+.header__logo {
+    float: left;
+    margin: -0.3em 0 0.1em 0.5em;
+    line-height: 1;
+    font-size: 24pt;
+    font-weight: bold;
+    color: #1c246c;
+    font-family: "Dancing Script", cursive;
+}
