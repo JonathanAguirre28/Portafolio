@@ -14,22 +14,22 @@
 
 <body>
     <!-- ------------------------------- HEADER -------------------------------- -->
-    <header>
-        <div>
-           <a class="header__logo" target="_blank" href="index.html">WELCOME!</a>
-        </div>
-        <nav>
-            <a href="#Home">Home</a>
-            <a href="#About">About</a>
-            <a href="#Services">Services</a>
-            <a href="#Portfolio">Portfolio</a>
-            <a href="#Contact">Contact</a>
+    <header class="header">
+        <nav class="nav">
+            <a class="header__logo" target="_blank" href="index.html">Welcome!</a>
+            <div class="div">
+                <a href="#Home">HOME</a>
+                <a href="#About">ABOUT</a>
+                <a href="#Services">SERVICES</a>
+                <a href="#projects">PROJECTS</a>
+                <a href="#Contact">CONTACT</a>
+            </div>
         </nav>
     </header>
     <!-- ----------------------------- SECCION ONE ----------------------------- -->
-    <section>
+    <section id="inicio">
         <div>
-            <img src="multimedia/imagenes/imagenPerfil.jpg" alt="icono" class="nav__Img"></a>
+            <img src="multimedia/imagenes/imagenPerfil.jpg" alt="icono" class="section__img"></a>
             <h1>Aguirre Jonathan Adrian</h1>
             <a href="multimedia/documentos/JonathanAguirre-FrontEnd.pdf" target="_blank">Descargar</a>
         </div>
@@ -38,9 +38,14 @@
     <section>
         <div>
             <h2>About me!</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro deleniti fugit dicta obcaecati modi! Nam,
-                natus neque reprehenderit esse eligendi quo sed distinctio fugiat tempora commodi blanditiis quam rem
-                ipsum?</p>
+            <p>
+                "I am a passionate web developer with skills in Bootstrap, Sass and GitHub. I am constantly learning and
+                currently exploring the JavaScript programming language to further improve my skills in web development.
+                I am always looking for new challenges and opportunities to grow in my career as a developer."
+                "Currently looking to get started in the labor market of programming, I have learned a lot until the
+                time
+                and I'm passionate about the limitless things you can do and the interesting people you have this
+                world!"</p>
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="40"
                 height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round"
                 stroke-linejoin="round">
@@ -59,9 +64,10 @@
                 <path d="M16 16v-3a2 2 0 0 0 -4 0" />
             </svg>
             <div>
-                <h2>css</h2>
-                <h2>javascript</h2>
-                <h2>bootstrap</h2>
+                <h2>Css</h2>
+                <h2>Sass</h2>
+                <h2>Bootstrap</h2>
+                <h2>Javascript</h2>
             </div>
             <div>
                 <h2>My education</h2>
@@ -187,12 +193,12 @@
             </p>
         </div>
     </section>
-    <!-- ------------------------------ PORTFOLIO ------------------------------ -->
+    <!-- ------------------------------ PROJECTS ------------------------------ -->
     <section>
-        <h2>My Portfolio</h2>
+        <h2>My Projects</h2>
         <a href="https://jonathanaguirre28.github.io/ProyectoFinal-Aguirre/">
             <div>
-                <img src="imagenes/imagenproyecto1.png" alt="proyecto1">
+                <img src="multimedia/imagenes/imagenproyecto1.png" alt="proyecto1" class="img__proyecto">
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet iusto sit obcaecati dolore soluta odio
                     veritatis laborum libero, est debitis. Temporibus voluptas qui, mollitia voluptatum incidunt
                     possimus ratione iusto rerum?</p>
@@ -200,7 +206,7 @@
         </a>
         <a href="https://jonathanaguirre28.github.io/ProyectoFinal-2-Aguirre/pages/nosotros.html">
             <div>
-                <img src="imagenes/imagenproyecto2.png" alt="proyecto2">
+                <img src="multimedia/imagenes/imagenproyecto2.png" alt="proyecto2" class="img__proyecto">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit expedita eos possimus unde doloremque
                     esse aliquam porro quo libero, aliquid modi soluta atque vero dolor est cum molestias earum ab?</p>
             </div>

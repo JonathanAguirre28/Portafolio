@@ -1,4 +1,46 @@
-.nav__Img {
+/* ---------------------------------- RESET --------------------------------- */
+body,
+html {
+    height: 100%;
+    background-color: rgb(241, 241, 241);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* --------------------------------- HEADER --------------------------------- */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+}
+
+.nav div a {
+    text-decoration: none;
+    margin: 1rem;
+}
+
+.header__logo {
+    float: left;
+    line-height: 1;
+    font-size: 24pt;
+    font-weight: bold;
+    color: #1c246c;
+    font-family: "Dancing Script", cursive;
+}
+
+.header {
+    background-color: rgb(252, 252, 252);
+    box-shadow: 10px 10px 5px -3px rgba(0, 0, 0, 0.24);
+    -webkit-box-shadow: 10px 10px 5px -3px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 10px 10px 5px -3px rgba(0, 0, 0, 0.24);
+}
+
+/* ------------------------------- SECTION ONE ------------------------------ */
+.section__img {
     align-items: center;
     width: 250px;
     height: 250px;
@@ -6,12 +48,19 @@
     border: 3px #96d0ff solid;
 }
 
-.header__logo {
-    float: left;
-    margin: -0.3em 0 0.1em 0.5em;
-    line-height: 1;
-    font-size: 24pt;
-    font-weight: bold;
-    color: #1c246c;
-    font-family: "Dancing Script", cursive;
+#inicio{
+    background-image: url(../multimedia/imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ----------------------------- SECTION PROJECT ---------------------------- */
+
+.img__proyecto{
+    width: 400px;
 }
