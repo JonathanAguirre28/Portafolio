@@ -71,7 +71,7 @@ a {
     top: 10%;
 }
 
-#inicio {
+.home {
     background-image: url(../multimedia/imagenes/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
