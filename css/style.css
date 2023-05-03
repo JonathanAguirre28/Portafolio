@@ -19,11 +19,15 @@ a {
 }
 
 .FontWith {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .marginBotton {
     margin-bottom: 0.5rem;
+}
+
+.colorwhite {
+    color: white;
 }
 
 /* --------------------------------- HEADER --------------------------------- */
@@ -67,8 +71,8 @@ a {
     align-items: center;
     margin: 0 auto;
     position: absolute;
-    left: 40%;
-    top: 10%;
+    left: 42%;
+    top: 25%;
 }
 
 .home {
@@ -82,8 +86,12 @@ a {
     justify-content: center;
 }
 
-#inicio div h1 {
-    padding-top: 5rem;
+#Home div h1 {
+    padding-top: 17rem;
+    font-size: 3rem;
+    position: absolute;
+    width: 200%;
+    text-align: center;
 }
 
 .inicioBotton {
@@ -93,6 +101,7 @@ a {
     border-bottom-left-radius: 2rem;
     border-top-right-radius: 2rem;
     border-bottom-right-radius: 2rem;
+    margin: 5rem;
 }
 
 /* -------------------------------- ABOUT ME -------------------------------- */
@@ -149,6 +158,14 @@ a {
     0% {
         width: 0;
     }
+}
+
+.tituloAbout {
+    line-height: 1;
+    font-size: 24pt;
+    font-weight: bold;
+    color: #1c246c;
+    font-family: "Dancing Script", cursive;
 }
 
 /* -------------------------------- LANGUAGES ------------------------------- */
@@ -298,7 +315,7 @@ label {
     flex-direction: column;
     align-items: center;
     padding: 1rem;
-    border-top:#96d0ff solid;
+    border-top: #96d0ff solid;
 }
 
 .P {

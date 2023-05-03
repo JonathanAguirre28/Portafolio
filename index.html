@@ -30,7 +30,7 @@
     <section class="home" id="Home">
         <div class="div__SectionOne">
             <img src="multimedia/imagenes/imagenPerfil.jpg" alt="icono" class="section__img">
-            <h1 class="FontWith">FRONT END</h1>
+            <h1><span class="typed-words colorwhite"></span></h1>
             <a class="FontWith inicioBotton" href="multimedia/documentos/JonathanAguirre-FrontEnd.pdf"
                 target="_blank">Download CV</a>
         </div>
@@ -38,7 +38,7 @@
     <!-- ----------------------------- ABOUT ME ----------------------------- -->
     <section class="sobreMi" id="About">
         <div class="sobreMidiv">
-            <h2 class="marginBotton">About me!</h2>
+            <h2 class="marginBotton tituloAbout">About me!</h2>
             <p class="marginBotton">
                 "I am a passionate web developer with skills in Bootstrap, Sass and GitHub. I am constantly learning and
                 currently exploring the JavaScript programming language to further improve my skills in web development.
@@ -47,7 +47,7 @@
                 "Currently looking to get started in the labor market of programming, I have learned a lot until the
                 time and I'm passionate about the limitless things you can do and the interesting people you have this
                 world!"</p>
-            <a href="">
+            <a href="https://github.com/JonathanAguirre28" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="40"
                     height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none"
                     stroke-linecap="round" stroke-linejoin="round">
@@ -227,12 +227,12 @@
         <h2>My Projects</h2>
         <div class="projectsDiv">
             <img src="multimedia/imagenes/imagenproyecto1.png" alt="proyecto1" class="img__proyecto">
-            <a class="bottonprojects" href="https://jonathanaguirre28.github.io/ProyectoFinal-Aguirre/">PROJECTS ONE</a>
+            <a class="bottonprojects" href="https://jonathanaguirre28.github.io/ProyectoFinal-Aguirre/" target="_blank">PROJECTS ONE</a>
         </div>
         <div class="projectsDiv">
             <img src="multimedia/imagenes/imagenproyecto2.png" alt="proyecto2" class="img__proyecto">
             <a class="bottonprojects"
-                href="https://jonathanaguirre28.github.io/ProyectoFinal-2-Aguirre/pages/nosotros.html">PROJECTS TWO</a>
+                href="https://jonathanaguirre28.github.io/ProyectoFinal-2-Aguirre/pages/nosotros.html" target="_blank">PROJECTS TWO</a>
         </div>
 
     </section>
@@ -261,6 +261,21 @@
     <footer class="footer">
         <p class="p">Copyright. Aguirre Jonathan Adrian</p>
     </footer>
+
+    <!--Animated typed-->
+
+    <script src="js/typed.js"></script>
+    <script>
+        var typed = new Typed('.typed-words', {
+            strings: ["I'm Jonathan!", "Frontend Developer!"],
+            typeSpeed: 80,
+            backSpeed: 80,
+            backDelay: 4000,
+            startDelay: 1000,
+            loop: true,
+            showCursor: true
+        });
+    </script>
 
 </body>
 
