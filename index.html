@@ -6,9 +6,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ------------------------------ LINK CSS ------------------------------- -->
     <link rel="stylesheet" href="css/style.css">
     <title>Portafolio</title>
+    <!-- ---------------------------- LINK FAVICON ----------------------------- -->
     <link rel="shortcut icon" href="multimedia/imagenes/ImagenFavicon.webp" type="image/x-icon">
+    <!-- ------------------------------ LINK AOS ------------------------------- -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <!-- -------------------------------- BODY --------------------------------- -->
 
@@ -37,9 +41,9 @@
     </section>
     <!-- ----------------------------- ABOUT ME ----------------------------- -->
     <section class="sobreMi" id="About">
-        <div class="sobreMidiv">
+        <div class="sobreMidiv" data-aos="fade-right">
             <h2 class="marginBotton tituloAbout">About me!</h2>
-            <p class="marginBotton">
+            <p class="marginBotton textAbout">
                 "I am a passionate web developer with skills in Bootstrap, Sass and GitHub. I am constantly learning and
                 currently exploring the JavaScript programming language to further improve my skills in web development.
                 I am always looking for new challenges and opportunities to grow in my career as a developer."
@@ -69,8 +73,9 @@
                 </svg>
             </a>
         </div>
-        <div class="SobreMiEducacion">
-            <div>
+        <div class="SobreMiEducacion" data-aos="fade-right">
+            <h2 class="tituloSobreMiEducacion">My Skills</h2>
+            <div class="margin">
                 <h2 class="marginBotton">Css</h2>
                 <div class="progress-bar">
                     <div style="width: 95%"></div>
@@ -89,14 +94,14 @@
                 </div>
             </div>
             <div>
-                <h2 class="SobreMih2">My education</h2>
+                <h2 class="SobreMih2 tituloSobreMiEducacion">My education</h2>
             </div>
-            <div class="marginBotton">
+            <div class="marginBotton margin">
                 <h3 class="marginBotton">Universidad Nacional Arturo Jauretche</h3>
                 <p>Systems Engineering (current)</p>
             </div>
             <div>
-                <h3 class="marginBotton">Coder House</h3>
+                <h3 class="marginBotton margin">Coder House</h3>
                 <p>Front End</p>
             </div>
         </div>
@@ -105,7 +110,7 @@
     <!-- ---------------------------- LANGUAGES ----------------------------- -->
     <section>
         <div class="lenguagesTitulo">
-            <h2>Languages and Tools:</h2>
+            <h2 class="tituloLenguages">Languages and Tools:</h2>
         </div>
         <div class="lenguajesContenido">
             <a href="https://getbootstrap.com" target="_blank"> <img
@@ -129,7 +134,7 @@
     </section>
     <!-- ------------------------------ SERVICES ------------------------------- -->
     <section class="services" id="Services">
-        <h2>Services</h2>
+        <h2 class="tituloServices">Services</h2>
         <div>
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-desktop" width="40"
                 height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round"
@@ -224,23 +229,25 @@
     </section>
     <!-- ------------------------------ PROJECTS ------------------------------ -->
     <section class="projects" id="projects">
-        <h2>My Projects</h2>
-        <div class="projectsDiv">
+        <h2 class="tituloProjects">My Projects</h2>
+        <div class="projectsDiv" data-aos="fade-down">
             <img src="multimedia/imagenes/imagenproyecto1.png" alt="proyecto1" class="img__proyecto">
-            <a class="bottonprojects" href="https://jonathanaguirre28.github.io/ProyectoFinal-Aguirre/" target="_blank">PROJECTS ONE</a>
+            <a class="bottonprojects" href="https://jonathanaguirre28.github.io/ProyectoFinal-Aguirre/"
+                target="_blank">PROJECTS ONE</a>
         </div>
-        <div class="projectsDiv">
+        <div class="projectsDiv" data-aos="fade-down">
             <img src="multimedia/imagenes/imagenproyecto2.png" alt="proyecto2" class="img__proyecto">
             <a class="bottonprojects"
-                href="https://jonathanaguirre28.github.io/ProyectoFinal-2-Aguirre/pages/nosotros.html" target="_blank">PROJECTS TWO</a>
+                href="https://jonathanaguirre28.github.io/ProyectoFinal-2-Aguirre/pages/nosotros.html"
+                target="_blank">PROJECTS TWO</a>
         </div>
 
     </section>
 
     <!-- --------------------------- SECTION CONTACT --------------------------- -->
 
-    <section class="contact" id="Contact">
-        <h2>Contact</h2>
+    <section class="contact" id="Contact" data-aos="fade-right">
+        <h2 class="tituloContact">Contact</h2>
         <form action="">
             <label for="">Nombre
                 <input class="imput" placeholder="Tu Nombre" type="text">
@@ -251,10 +258,12 @@
             <label for="">Asunto
                 <input class="imput" placeholder="¿En que te puedo ayudar?" type="text">
             </label>
+            <div class="divbotton">
             <textarea class="imput" name="Cuentame un poco mas" id="" cols="30" rows="10"></textarea>
             <button class="contactBooton" type="submit">
                 Enviar
             </button>
+            </div>
         </form>
     </section>
 
@@ -275,6 +284,11 @@
             loop: true,
             showCursor: true
         });
+    </script>
+    <!---- AOS SCRIPT ---->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 
 </body>

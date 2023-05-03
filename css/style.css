@@ -30,6 +30,11 @@ a {
     color: white;
 }
 
+.margin {
+    margin-top: 1.5rem;
+}
+
+
 /* --------------------------------- HEADER --------------------------------- */
 .nav {
     display: flex;
@@ -168,6 +173,19 @@ a {
     font-family: "Dancing Script", cursive;
 }
 
+.textAbout {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.tituloSobreMiEducacion {
+    line-height: 1;
+    font-size: 24pt;
+    font-weight: bold;
+    color: #1c246c;
+    font-family: "Dancing Script", cursive;
+}
+
 /* -------------------------------- LANGUAGES ------------------------------- */
 
 .lenguajesContenido {
@@ -189,6 +207,14 @@ a {
     align-items: center;
     justify-content: center;
     margin: 1rem 0;
+}
+
+.tituloLenguages {
+    line-height: 1;
+    font-size: 24pt;
+    font-weight: bold;
+    color: #1c246c;
+    font-family: "Dancing Script", cursive;
 }
 
 /* -------------------------------- SERVICES -------------------------------- */
@@ -214,6 +240,14 @@ a {
 
 .servicestext {
     text-align: center;
+}
+
+.tituloServices {
+    line-height: 1;
+    font-size: 24pt;
+    font-weight: bold;
+    color: #1c246c;
+    font-family: "Dancing Script", cursive;
 }
 
 /* -------------------------------- PROJECTS -------------------------------- */
@@ -259,6 +293,14 @@ a {
     font-size: 1.2em;
     float: right;
     border-color: none;
+}
+
+.tituloProjects {
+    line-height: 1;
+    font-size: 24pt;
+    font-weight: bold;
+    color: #1c246c;
+    font-family: "Dancing Script", cursive;
 }
 
 /* ----------------------------- SECTION CONTACT ---------------------------- */
@@ -308,6 +350,19 @@ label {
     cursor: pointer;
 }
 
+.tituloContact {
+    line-height: 1;
+    font-size: 24pt;
+    font-weight: bold;
+    color: #1c246c;
+    font-family: "Dancing Script", cursive;
+}
+
+.divbotton {
+    display: flex;
+    flex-direction: column;
+}
+
 /* --------------------------------- FOOTER --------------------------------- */
 
 .footer {
@@ -316,6 +371,7 @@ label {
     align-items: center;
     padding: 1rem;
     border-top: #96d0ff solid;
+    margin: 1rem;
 }
 
 .P {
