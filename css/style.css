@@ -107,6 +107,10 @@ a {
     border-top-right-radius: 2rem;
     border-bottom-right-radius: 2rem;
     margin: 5rem;
+    line-height: 1;
+    font-weight: bold;
+    color: #1c246c;
+    font-family: "Dancing Script", cursive;
 }
 
 /* -------------------------------- ABOUT ME -------------------------------- */
@@ -430,7 +434,8 @@ label {
 
     /* -------------------------------- ABOUT ME -------------------------------- */
 
-    .sobreMidiv, .SobreMiEducacion {
+    .sobreMidiv,
+    .SobreMiEducacion {
         width: 100%;
     }
 
