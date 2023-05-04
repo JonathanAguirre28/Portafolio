@@ -425,13 +425,22 @@ label {
 
     .div__SectionOne {
         width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .typed-word {
         padding-top: 2rem;
     }
 
-    .FontWith {}
+    .FontWith {
+        margin: 10rem;
+    }
+
+    .front {
+        padding-bottom: 15rem;
+    }
 
     /* -------------------------------- ABOUT ME -------------------------------- */
 
