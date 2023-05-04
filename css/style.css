@@ -76,7 +76,7 @@ a {
     align-items: center;
     margin: 0 auto;
     position: absolute;
-    left: 42%;
+    left: 37%;
     top: 25%;
 }
 
@@ -197,6 +197,7 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     text-decoration: none;
     box-shadow: 10px 10px 5px 0px rgba(163, 163, 163, 0.75);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(146, 145, 145, 0.75);
@@ -441,6 +442,31 @@ label {
 
     .tituloAbout {
         width: max-content;
+    }
+
+    /* ---------------------------- SECTION SERVICES ---------------------------- */
+
+    .services {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    /* ---------------------------- SECTION PROJECTS ---------------------------- */
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    /* ---------------------------- SECTION PROJECTS ---------------------------- */
+
+    .contact {
+        display: flex;
+        flex-direction: column;
     }
 
 }
