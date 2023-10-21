@@ -281,6 +281,7 @@ a {
   
   .projectsDiv {
     display: grid;
+    justify-items: center;
     grid-template-rows: 1fr 1fr;
     align-items: center;
     text-align: left;
